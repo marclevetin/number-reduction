@@ -11,7 +11,11 @@ const isNumber = function(number) {
 }
 
 const isInteger = function(number) {
-  return parseInt(number) === number
+  if (parseInt(number) === number) {
+    return true;
+  } else {
+    throw Error('Not an integer')
+  }
 }
 
 module.exports = {
