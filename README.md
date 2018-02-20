@@ -19,6 +19,7 @@ Your program should be able to satisfy the current test cases:
 
 ## to use
 1) Clone the repo
-2) type `node index <number>`
+2) `npm install`
+3) type `node index <number>`
 
 Output will show `number of steps: <solution>` and an object with key: value pairs of the original number: steps to completion.
