@@ -62,7 +62,7 @@ function reduceNumber(number, iterator) {
 
   // something went wrong
   } else {
-    throw Error('something went wrong');
+    console.log('something went wrong')
   }
 }
 
