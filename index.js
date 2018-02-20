@@ -1,10 +1,7 @@
 const userEnteredNumber = parseFloat(process.argv[2]);
 const math = require('./mathFunctions');
-const validate = require('./validations');
 
-// validates that the entry is a number and integer
-// const validatedNumber = (validate.isNumber(userEnteredNumber) && validate.isInteger(userEnteredNumber)) ? userEnteredNumber : 'Not an integer';
-// console.log('validated number:' + validatedNumber)
+// algorithm
 // if number is even, divide by two
 // if number is not even, then run through "add one" and "subtract one"
 // count number of steps
