@@ -22,4 +22,6 @@ Your program should be able to satisfy the current test cases:
 2) `npm install`
 3) type `node index <number>`
 
-Output will show `number of steps: <solution>` and an object with key: value pairs of the original number: steps to completion.
+Output will show `number of steps: <solution>`.
+
+To see an object with key: value pairs of the original number: steps to completion, add a second argument after the number: `node index <number> show`
