@@ -54,8 +54,8 @@ describe("Reduce Number", function() {
     expect(reduceNumber(987233, 0)).to.equal(25);
   });
 
-  // need to impliment a bignumber library to get this to pass
-  // it("entering a 9482379823740923741113 returns 92", function() {
-  //   expect(reduceNumber(9482379823740923741113, 0)).to.equal(92);
-  // });
+  it("entering a 9482379823740923741113 returns 92", function() {
+    // changed the format for this test to avoid JS exponentiation of the big number
+    expect(reduceNumber('9482379823740923741113', 0)).to.equal(92);
+  });
 });
